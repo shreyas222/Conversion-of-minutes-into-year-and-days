@@ -1,0 +1,17 @@
+package myCaptain;
+import java.util.Scanner;
+
+public class ConversionOfMinutesintoYears {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number of minutes : ");
+		long minutes=sc.nextLong();
+		int minutesInYear=60*24*365;
+		long years =(long) (minutes/minutesInYear); 
+		System.out.println(years);
+		
+		
+	}
+
+}
